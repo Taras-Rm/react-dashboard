@@ -1,0 +1,76 @@
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 25%;
+  background-color: #101010;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebarContent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 12rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  position: relative;
+}
+
+.natification {
+  position: absolute;
+  background-color: #dc3434;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -16px;
+  right: 110px;
+}
+
+.profileName {
+  margin-top: 1rem;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.profileEmail {
+  font-size: 17px;
+  margin-top: 1rem;
+  opacity: 0.6;
+}
+
+.sidebarNav {
+  margin-top: 7rem;
+}
+
+.sidebarNavItem {
+  margin-bottom: 2rem;
+}
+
+.sidebarNavLink {
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
+
+  &Active {
+    @extend .sidebarNavLink;
+    opacity: 1;
+  }
+}

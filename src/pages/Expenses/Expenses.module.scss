@@ -1,0 +1,192 @@
+.page {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 75%;
+  background-color: #101010;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.expensesPage {
+  background-color: white;
+  border-radius: 30px;
+  height: 95%;
+  width: 95%;
+
+  display: flex;
+}
+
+.expensesOverview {
+  width: 65%;
+  padding: 3rem 7rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.commonInfo {
+  margin-bottom: 3rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.commonInfoHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.expensesTitle {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.expensesActions {
+  display: flex;
+  align-items: center;
+
+  .addProfileButton {
+    margin-left: 0.8rem;
+    background-color: transparent;
+    border: 2px solid #d2dce8;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.expensesProfiles {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  img {
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    top: -1rem;
+  }
+
+  .firstProfile {
+    left: -5rem;
+  }
+
+  .secondProfile {
+    left: -3.5rem;
+  }
+
+  .thirdProfile {
+    left: -2rem;
+  }
+}
+
+.expensesDate {
+  color: #101010;
+  opacity: 0.5;
+  margin-bottom: 3rem;
+}
+
+.dayExpenses {
+  margin-bottom: 3.5rem;
+}
+
+.dayExpensesHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid #a4a5a7;
+  margin-bottom: 2rem;
+
+  .dayExpensesHeaderTitle {
+    font-size: 18px;
+    color: #262a41;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.spendMoney {
+  background-color: #f9fafc;
+  width: 35%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: #273240;
+
+  padding: 4rem 3rem;
+}
+
+.spendMoneyTitle {
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+.spendMoneyList {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6rem;
+}
+
+.spendMoneyBottom {
+  background-color: #edf0f6;
+  border-radius: 15px;
+  position: relative;
+  padding: 5rem 1.5rem 0 1.5rem;
+  padding-bottom: 1.5rem;
+
+  .icon1 {
+    position: absolute;
+    top: -1rem;
+    left: 3rem;
+    transform: scale(1.3);
+  }
+
+  .icon2 {
+    position: absolute;
+    top: -2rem;
+    right: 2rem;
+    transform: scale(1.3);
+  }
+}
+
+.spendMoneyBottomTitle {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.spendMoneyBottomDescription {
+  font-size: 14px;
+  opacity: 0.7;
+  line-height: 21px;
+  margin-bottom: 1.5rem;
+}
+
+.spendMoneyBottomButton {
+  background-color: #101010;
+  color: white;
+  text-transform: uppercase;
+  padding: 1rem 0;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}

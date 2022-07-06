@@ -1,0 +1,46 @@
+.dayExpensesItem {
+  display: flex;
+
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.dayExpensesItemPhoto {
+  height: 3rem;
+  width: 3rem;
+  background-color: #32a7e2;
+  border-radius: 50%;
+  margin-right: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dayExpensesItemInfo {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  color: #273240;
+
+  padding: 0.3rem 0;
+
+  .dayExpensesItemInfoDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .dayExpensesItemName {
+      font-weight: 500;
+    }
+
+    .dayExpensesItemDetailInfo {
+      font-size: 14px;
+      opacity: 0.5;
+    }
+  }
+
+  .dayExpensesItemAmount {
+    font-weight: 600;
+  }
+}

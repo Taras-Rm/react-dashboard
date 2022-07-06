@@ -1,0 +1,33 @@
+.spendMoneyListItem {
+  margin-bottom: 2rem;
+}
+
+.spendMoneyListItemTop {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 1rem;
+}
+
+.spendMoneyListItemName {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.spendMoneyListItemAmount {
+  font-weight: 400;
+}
+
+.spendMoneyListItemDegreeBox {
+  background-color: #eceff5;
+  height: 0.5rem;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.spendMoneyListItemDegree {
+  background-color: #31ba96;
+  height: 0.5rem;
+  border-radius: 5px;
+  width: fit-content;
+}
